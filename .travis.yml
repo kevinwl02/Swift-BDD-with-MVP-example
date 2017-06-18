@@ -1,0 +1,14 @@
+osx_image: xcode8.3
+language: objective-c
+xcode_workspace: BeerSearch/BeerSearch.xcworkspace
+xcode_scheme: BeerSearch
+branches:
+  only:
+    - master
+
+podfile: BeerSearch/Podfile
+before_install:
+	- gem install cocoapods
+
+script:
+- set -o pipefail && xcodebuild test -workspace BeerSearch/BeerSearch.xcworkspace -scheme BeerSearch -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty

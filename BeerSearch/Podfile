@@ -1,0 +1,18 @@
+platform :ios, '9.0'
+
+target 'BeerSearch' do
+  use_frameworks!
+
+  target 'BeerSearchTests' do
+    inherit! :search_paths
+    # Pods for testing
+    pod 'Quick'
+    pod 'Nimble'
+  end
+
+  target 'BeerSearchUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
