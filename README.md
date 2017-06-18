@@ -1,15 +1,15 @@
-# BDD with MVP example (Swift)
+# Using BDD with MVP and Swift
 
 A small introduction to TDD, BDD and how the Presenter pattern can play a role in this workflow.
 [Full article here.](https://kevinwl02.github.io/bdd-tdd-presenter/).
 Accompanying source code that contains unit tests and Presenter implementations.
 
-##Author
+## Author
 
 Feedback welcome.
 
 Kevin Wong, [@kevinwl02](https://twitter.com/kevinwl02)
 
-##License
+## License
 
 Code distributed under the [MIT license](LICENSE)
