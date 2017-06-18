@@ -1,4 +1,4 @@
-## BDD with MVP example (Swift)
+# BDD with MVP example (Swift)
 
 A small introduction to TDD, BDD and how the Presenter pattern can play a role in this workflow.
 [Full article here.](https://kevinwl02.github.io/bdd-tdd-presenter/).
