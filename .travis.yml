@@ -11,4 +11,4 @@ before_install:
     - gem install cocoapods
 
 script:
-- set -o pipefail && xcodebuild test -workspace BeerSearch/BeerSearch.xcworkspace -scheme BeerSearch -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
+- set -o pipefail && xcodebuild test -workspace BeerSearch/BeerSearch.xcworkspace -scheme BeerSearch -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty
